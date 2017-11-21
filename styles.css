@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+}
+h1 h2 h3 h4 {
+	margin:0;
+}
+.app {
+	display: grid;
+	height: 200%;
+	width: 100%;
+	position: absolute;
+	background-color: #DCDFD8;
+	grid-template-columns: 16.66667% 16.66667%16.66667% 16.66667% 16.66667% 16.66667%;
+}
+.landingPageContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	background-color: #DCDFD8;
+	border-bottom: 1px solid black;
+}
+.blackBox{
+	width: 150%;
+	height: 135px;
+	background: #1F1E1A;
+	position: absolute;
+	transform: rotate(-30.5deg);
+	display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.redBox {
+	width: 150%;
+	height: 135px;
+	background: #CA5B5B;
+	position: absolute;
+	margin-top: -30vh;
+	transform: rotate(-320deg);
+	z-index: 3;
+}
+.bigText {
+	font-size: 60px;
+	margin: 0;
+	color: #DCDFD8;
+	text-align: right;
+	letter-spacing: 3.38px;
+	line-height: 64px;
+}
+.digitalDesigner {
+	transform: rotate(-30.5deg);
+	font-size: 45px;
+	letter-spacing: 3.38px;
+	line-height: 64px;
+}
+.stad {
+	transform: rotate(-30.5deg);
+	font-size: 45px;
+	letter-spacing: 3.38px;
+	line-height: 64px;
+	z-index: 8;
+}
+.column1 {
+	 grid-column-start: 1;
+	 width: 100%;
+	 height: 100%;
+	 border-right: 1px solid black;
+	 z-index: 1;
+}
+.column2 {
+	 grid-column-start: 2;
+	 width: 100%;
+	 height: 100%;
+	 border-right: 1px solid black;
+	 z-index: 1;
+}
+.column3 {
+	 grid-column-start: 3;
+	 width: 100%;
+	 height: 100%;
+	 border-right: 1px solid black;
+	 z-index: 1;
+}
+.column4 {
+	 grid-column-start: 4;
+	 width: 100%;
+	 height: 100%;
+	 border-right: 1px solid black;
+	 z-index: 1;
+}
+.column5 {
+	 grid-column-start: 5;
+	 width: 100%;
+	 height: 100%;
+	 border-right: 1px solid black;
+	 z-index: 1;
+}
+.projectPageContainer {
+	display: flex;
+	justify-content: center;
+	height: 110vh;
+	width: 100%;
+	background-color: red;
+}
+.aboutPageContainer {
+	height: 100vh;
+	width: 100%;
+	background-color: orange;
+}
+.projectBoxContainer {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+}
+.projectBox {
+	width: 230px;
+	height: 230px;
+	margin-right: 50px;
+	background: white;
+	justify-content: center;
+	flex-direction: row;
+
+}
